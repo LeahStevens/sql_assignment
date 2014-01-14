@@ -4,20 +4,20 @@ sql_assignment
 Project for NSS BackEnd on Unit 2 SQL
 
 
- Goal:
+ **Goal:**
 Develop and demonstrate a command of SQL (using SQLite3)
 We will later refactor this application to user ActiveRecord
 
 
 
-Criteria:
+**Criteria:**
 It should be a command-line CRUD app (Create, Read, Update, Delete)
 You can use gems
 Should be relatively simple feature list, as the focus is on SQL mastery
 
 
 
-Feature List:
+**Feature List:**
 Enter information from a set of data on imports and exports. 
 I can query for top exports/imports based on country.
 I can look for the country the US exports to most. 
