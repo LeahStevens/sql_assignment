@@ -38,3 +38,10 @@ I imagine there isn't much you can learn from my data that you can not learn fro
 
 
 
+**Link to Data**
+http://www.census.gov/foreign-trade/balance/
+
+
+
+
+
