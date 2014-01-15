@@ -32,7 +32,7 @@ I can look for the country the US exports to most.
 
 
 **Interesting Queries**
-I imagine there isn't much you can learn from my data that you can not learn from other data sets on exports/imports. However I am excited about pulling data from an external source, especially since it will make understanding data avaiable to the public easier. 
+I imagine there isn't much you can learn from my data that you can not learn from other data sets on exports/imports. However I am excited about pulling data from an external source, especially since it will make understanding data avaliable to the public easier. 
 
 
 
