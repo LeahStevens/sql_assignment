@@ -49,4 +49,13 @@ In order to hide how much business our countries do with each other.
   * Uploads new data into exports and imports  by Country.
 
 
+**Case 5**
+As a person who wants to keep my database up to date. 
+I want to create a row of data for each new year. 
+In order to add Imports and Exports for each year. 
 
+  Usage: ./import_export create "Year"
+  
+  Acceptance Criteria:
+  * Creates a new year and allows for updating that year's data. 
+  
