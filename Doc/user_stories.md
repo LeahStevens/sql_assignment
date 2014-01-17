@@ -41,7 +41,7 @@ As an International Spy who wants to control the flow of information.
 I want to update and delete the current records on imports and exports.  
 In order to hide how much business our countries do with each other.
 
-  Usage: ./import_export add "Countries"
+  Usage: ./import_export add "Countries"  
   Usage: ./import_export delete "Countries"
 
   Acceptance Criteria:
