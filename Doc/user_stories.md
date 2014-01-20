@@ -9,6 +9,8 @@ In order to know if my product will be easy to export/sell/market.
   Acceptance Criteria:
  * Prints out a country name with the amount we export to them.
 
+
+
 **Case 2**
 
 As a student who is studying international business.  
@@ -20,33 +22,36 @@ In order to know what language I should learn.
   Acceptance Criteria:
   * Prints out top 5 countries we import from.
   * Prints out top 5 countries we export to.
+  
 
 
 **Case 3**
  
-As an American who wants to know how many goods we import from China.  
-I want to get the exact numbers for my pro "Made in America" campaign.  
-In order to know how best to incite public outrage.
+As an American who wants to change how many goods we import from China.     
+I want to update the exact numbers for my pro "Made in America" campaign.     
+In order to show the progress we are making.  
 
-  Usage: ./import_export stats "China"
+  Usage: ./import_export update "China"
 
   Acceptance Criteria:
   * Prints out the amount of goods we import from China
-  * Prints out total goods we import, then can calculate from there.
+  * Asks for new data.
+  * Uploads new data into exports and imports by Country.
+
   
 
 **Case 4**
 
 As an International Spy who wants to control the flow of information.  
-I want to update and delete the current records on imports and exports.  
+I want to delete the current records on imports and exports.  
 In order to hide how much business our countries do with each other.
 
-  Usage: ./import_export add "Countries"  
+
   Usage: ./import_export delete "Countries"
 
   Acceptance Criteria:
   * Deletes data out of exports or imports by Country.
-  * Uploads new data into exports and imports  by Country.
+
 
 
 **Case 5**
@@ -59,4 +64,11 @@ In order to add Imports and Exports for each year.
   
   Acceptance Criteria:
   * Creates a new year and allows for updating that year's data. 
+  * Asks a series of questions that get specific information. 
   
+
+
+
+
+
+ 
