@@ -61,7 +61,7 @@ As a person who wants to keep my database up to date.
 I want to create a row of data for each new year.    
 In order to add Imports and Exports for each year.   
 
-  Usage: ./import_export create --Year "2014" --Country "Country name" --importsmonth "3" --exportsmonth "3" 
+  Usage: ./import_export create --Year "2014" --Country "Country name" --Month "3" --Imports "1931" --Exports "2983"
   
   Acceptance Criteria:
   * Creates a new year and allows for updating that year's data. 
