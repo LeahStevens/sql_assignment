@@ -1,19 +1,10 @@
-**Exports**
-* Year Key
-* Country Key
-* Months Jan. - Dec.
-* Year Total
+**Countries**
+*CountryID: int
+*Name: varchar(255)
 
-**Imports**
-* Year Key
-* Country Key
-* Months Jan. - Dec.
-* Year Total
-
-**Year**
-* Year Key
-* Year
-
-**Country**
-* Country Key
-* Country
+**ExportsImports**
+*CountryID: int
+*Year: int
+*Month: int
+*Type: bit (I/E)
+*Amount: int
