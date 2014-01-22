@@ -12,5 +12,5 @@ task :default => :test
 task :bootstrap_database do
   require 'sqlite3'
   database = SQLite3::Database.new("imports_exports")
-  database.execute("CREATE TABLE purchases (id INTEGER PRIMARY KEY AUTOINCREMENT, name varchar(50), calories integer, price decimal(5,2))")
+  database.execute("CREATE TABLE ExportsImports (id INTEGER PRIMARY KEY AUTOINCREMENT, countryid int, year int, month int, type bit(i/e), amount int")
 end
