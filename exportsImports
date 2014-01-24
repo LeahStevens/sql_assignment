@@ -1,0 +1,31 @@
+#usr/bin/env ruby
+
+require_relative 'lib/environment'
+require_relative 'lib/parse_argument'
+
+command = ARGV[0]
+options = ParseArguments.parse
+options[:name] = ARGV[1]
+
+if command = "search"
+  puts "What do you want to search for?"
+  input = $stdin.gets
+  puts "You asked for: #{input}"
+else
+  error_message = ParseArguments.validate(options)
+  if error_messages.empty?
+    require 'sqlite3'
+    database = Environment.database_connection(options[:environment])
+    statement = "insert into exportsImports(country, year, month, type, amount) values('#{options[:country]}', #{options[:year]}, #{options[:month]}, #{options[:type]}, #{options[:amount]})"
+    database.execute(statement)
+    puts "A country named #{options[:country]}, with year #{options[:year]}, month $#{options[:month]}, type $#{options[:type]}, and amount $#{options[:amount]} was created."
+  else
+    puts error_messages
+  end
+end
+
+
+
+
+
+
