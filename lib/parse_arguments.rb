@@ -41,7 +41,7 @@ class ParseArguments
     missing_things << "type" unless options[:type]
     missing_things << "amount" unless options[:amount]
     unless missing_things.empty?
-      errors << "You must provide the #{missing_things.join(" and ")} of the country you are adding.\n"
+      errors << "You must provide the #{missing_things.join(" and ")} for the country you are adding.\n"
     end
     errors
   end

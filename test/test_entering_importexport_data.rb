@@ -1,16 +1,16 @@
 require_relative 'helper'
 
-class Testing < exportsImportsTest
+class TestingEnteringExportsImports < ExportsImportsTest
   def test_country_information_is_printed
-    command = "./exportsImports add China --year 2014 --month 1 --type e --amount 23435"
-    expected = "A country named China, with the year 2014, month 1, type 3, and amount 23435"
+    command = "./exportsImports add China --year 2014 --month 01 --type e --amount 23435"
+    expected = "A country named China, with the year 2014, month 01, type 3, and amount 23435"
     assert_command_output expected, command
   end
 
   def test_valid_country_information_gets_saved
-    `./exportsImports add China --year 2014 --month 1 --type e --amount 23435 --environment test`
+    `./exportsImports add China --year 2014 --month 01 --type e --amount 23435 --environment test`
     results = database.execute("select country, year, month, type, amount from exportsImports")
-    expected = ["China", 2014, 1, "e", 23435]
+    expected = ["China", 2014, 01, "e", 23435]
     assert_equal expected, results[0]
 
     result = database.execute("select count(id) from exportsImports")
@@ -24,7 +24,7 @@ class Testing < exportsImportsTest
   end
 
   def test_for_missing_year
-    command = "./exportsImports add China --month 1 --type e --amount 23435"
+    command = "./exportsImports add China --month 01 --type e --amount 23435"
     expected = "You must provide the year for the country you are adding."
     assert_command_output expected, command
   end

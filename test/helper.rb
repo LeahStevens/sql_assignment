@@ -1,7 +1,7 @@
 require 'minitest/autorun'
 require_relative '../lib/environment'
 
-class GroceryTest < MiniTest::Unit::TestCase
+class ExportsImportsTest < MiniTest::Unit::TestCase
   def database
     Environment.database_connection("test")
   end

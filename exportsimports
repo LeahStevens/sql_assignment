@@ -1,0 +1,45 @@
+#!/usr/bin/env ruby
+
+require_relative 'lib/environment'
+require_relative 'lib/parse_arguments'
+
+command = ARGV[0]
+options = ParseArguments.parse
+options[:name] = ARGV[1]
+
+Environment.environment = options[:environment] || "production"
+database = Environment.database_connection
+
+if command == "search"
+  puts "What do you want to search for?"
+  input = $stdin.gets.chomp
+  puts "You asked for: #{input}"
+  statement = "select ExportsImports.country from ExportsImports where name LIKE '%#{input}%'"
+  results = database.execute(statement)
+  puts results
+elsif command == "add"
+  error_messages = ParseArguments.validate(options)
+  if error_messages.empty?
+    exportsImports = ExportsImports.new(options)
+    exportsImports.save
+    puts "A country named #{ExportsImports.country}, with the year #{ExportsImports.year}, month #{ExportsImports.month}, type #{ExportsImports.type}, and amount #{ExportsImports.amount}"
+  else
+    puts error_messages
+  end
+elsif command == "list"
+  puts "All ExportsImports"
+  puts ExportsImports.all
+else
+  puts "Command not implemented"
+end
+
+
+
+
+
+
+
+
+
+
+

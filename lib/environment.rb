@@ -1,5 +1,17 @@
+require_relative 'database'
+require_relative '../models/exportsImports'
+require 'logger'
+
 class Environment
-  def self.database_connection(environment = "production")
-    @connection ||= SQLite3::Database.new("db/exportsImports_#{environment}.sqlite3")
+  def self.environment= environment
+    @@environment = environment
+  end
+
+  def self.database_connection
+    Database.connection(@@environment)
+  end
+
+  def self.logger
+    @@loger ||= Logger.new("logs/#{@@environment}.log")
   end
 end

@@ -7,19 +7,21 @@ Rake::TestTask.new() do |t|
   t.pattern = "test/test_*.rb"
 end
 
-desc "Run tests"
+desc `running tests`
 task :default => :test
 
+desc 'production db setup'
 task :bootstrap_database do
-  require 'sqlite3'
-  database = Environment.database_connection("production")
+  Environment.environment = "production"
+  database = Environment.database_connection
   create_tables(database)
 end
 
+desc `prepare test db`
 task :test_prepare do
-  require 'sqlite3'
-  File.delete("db/exportsImports_test.sqlite3")
-  database = Environment.database_connection("test")
+  File.delete("db/exportsimports_test.sqlite3")
+  Environment.environment = 'test'
+  database = Environment.database_connection
   create_tables(database)
 end
 
