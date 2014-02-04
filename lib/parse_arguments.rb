@@ -4,7 +4,7 @@ class ParseArguments
   def self.parse
     options = { environment: "production" }
     OptionParser.new do |opts|
-      opts.banner = "Usage: exportsImports [command] [options]"
+      opts.banner = "Usage: tradedata [command] [options]"
 
       opts.on("--year [YEAR]", "The year") do |year|
         options[:year] = year
@@ -22,16 +22,26 @@ class ParseArguments
         options[:amount] = amount
       end
 
+      opts.on("--country [COUNTRY]", "The country") do |name|
+        options[:name] = name
+      end
+
+      opts.on("--id [ID]", "The id of the country we are editing") do |id|
+        options[:id] = id
+      end
+
       opts.on("--environment [ENV]", "The database environment") do |env|
         options[:environment] = env
       end
     end.parse!
+    options[:country] ||= ARGV[1]
+    options[:command] = ARGV[0]
     options
   end
 
   def self.validate options
     errors = []
-    if options[:name].nil? or options[:name].empty?
+    if options[:country].nil? or options[:country].empty?
       errors << "You must provide the name of the country you are adding.\n"
     end
 

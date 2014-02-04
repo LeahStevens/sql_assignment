@@ -6,3 +6,4 @@ ruby "2.0.0"
 
 gem 'sqlite3'
 gem 'highline'
+gem 'pry'

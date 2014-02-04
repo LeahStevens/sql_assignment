@@ -1,0 +1,79 @@
+#!/usr/bin/env ruby
+
+require_relative 'lib/environment'
+require_relative 'lib/parse_arguments'
+require_relative 'lib/interactions'
+
+class TradeData
+  include Interactions
+  attr_reader :options
+
+  def initialize
+    @options = ParseArguments.parse
+    Environment.environment = @options[:environment] || "production"
+  end
+
+  def main
+    database = Environment.database_connection
+
+    if options[:command] == "search"
+      search_term = ask("What do you want to search for?")
+      search_exportsimports_for(search_term)
+    elsif options[:command] == "add"
+      add_exportsimports()
+    elsif options[:command] == "list"
+      list_exportsimports()
+    elsif options[:command] == "edit"
+      if exportsimports = ExportsImports.find(options[:id])
+        exportsimports.update(options)
+        puts "ExportsImports #{exportsimports.id} is now named #{exportsimports.country}, year #{exportsimports.year}, month $#{exportsimports.month}, type $#{exportsimports.type}, and amount $#{exportsimports.amount}."
+      else
+        puts "ExportsImports #{options[:id]} couldn't be found."
+      end
+    else
+      puts "Command not implemented"
+    end
+  end
+
+  def list_exportsimports()
+    puts "All ExportsImports:"
+    puts ExportsImports.all
+  end
+
+  def search_exportsimports_for(search_term)
+    puts "You asked for: #{search_term}"
+    puts ExportsImports.search(search_term)
+  end
+
+  def add_exportsimports
+    error_messages = ParseArguments.validate(options)
+    options[:country] = get_country()
+    if error_messages.empty?
+      exportsimports = ExportsImports.new(options)
+      exportsimports.save
+      puts "A country named #{exportsimports.country}, with the year #{exportsimports.year}, month #{exportsimports.month}, type #{exportsimports.type}, and amount #{exportsimports.amount}"
+    else
+      puts error_messages.join(" ")
+    end
+  end
+
+  def get_country
+    query = "Choose a country:"
+    countries = Country.all
+    countries.each_with_index do |country, i|
+      query << "#{i+1}. #{country.country}"
+    end
+    country_number = ask(query)
+    if country_number.empty?
+      Country.default
+    else
+      countries[country_number.to_i - 1]
+    end
+  end
+end
+
+
+tradedata = TradeData.new()
+tradedata.main()
+
+

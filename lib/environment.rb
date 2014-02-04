@@ -1,5 +1,6 @@
 require_relative 'database'
-require_relative '../models/exportsImports'
+require_relative '../models/exportsimports'
+require_relative '../models/country'
 require 'logger'
 
 class Environment
@@ -12,6 +13,7 @@ class Environment
   end
 
   def self.logger
-    @@loger ||= Logger.new("logs/#{@@environment}.log")
+    @@logger ||= Logger.new("logs/#{@@environment}.log")
   end
 end
+

@@ -1,0 +1,636 @@
+# Logfile created on 2014-02-02 01:49:10 -0600 by logger.rb/36483
+I, [2014-02-02T01:49:10.001701 #8621]  INFO -- : Executing: select * from countries where country = ''
+I, [2014-02-02T01:49:10.002094 #8621]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-02T01:49:10.002302 #8621]  INFO -- : Executing: select * from countries where country = ''
+I, [2014-02-02T01:49:10.002446 #8621]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-02T01:49:10.002624 #8621]  INFO -- : Executing: select * from countries where country = ''
+I, [2014-02-02T01:49:10.002775 #8621]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-02T01:49:10.002947 #8621]  INFO -- : Executing: select count(countryid) from countries
+I, [2014-02-02T01:49:10.003096 #8621]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-02T01:49:10.003266 #8621]  INFO -- : Executing: select * from countries where country = ''
+I, [2014-02-02T01:49:10.003414 #8621]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-02T01:49:10.003591 #8621]  INFO -- : Executing: select * from countries order by country ASC
+I, [2014-02-02T01:49:10.003737 #8621]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-02T01:50:03.199610 #8661]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-02T01:50:03.200243 #8661]  INFO -- : Executing: select count(countryid) from exportsimports
+I, [2014-02-02T01:50:03.200403 #8661]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-02T01:50:03.200714 #8661]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-02T01:50:03.201033 #8661]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-02T01:50:03.201344 #8661]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-02T01:50:03.201650 #8661]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-02T01:50:03.201955 #8661]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-02T01:50:03.202262 #8661]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-02T01:50:03.202513 #8661]  INFO -- : Executing: select * from countries where country = ''
+I, [2014-02-02T01:50:03.202742 #8661]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-02T01:50:03.203029 #8661]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-02T01:50:03.203315 #8661]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-02T01:50:03.203530 #8661]  INFO -- : Executing: select * from countries where country = ''
+I, [2014-02-02T01:50:03.203707 #8661]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-02T01:50:03.203962 #8661]  INFO -- : Executing: select * from exportsimports where countryid = 12342
+I, [2014-02-02T01:50:03.204150 #8661]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-02T01:50:03.204440 #8661]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-02T01:50:03.204740 #8661]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-02T01:50:03.208153 #8661]  INFO -- : Executing: select exportsimports.* from exportsimports where country LIKE '%%' order by country ASC
+I, [2014-02-02T01:50:03.208488 #8661]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-02T01:50:03.208717 #8661]  INFO -- : Executing: insert into ExportsImports(country, year, month, type, amount) values('China', 2014, 01, 'e', 23435)
+I, [2014-02-02T01:50:03.208896 #8661]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-02T01:50:03.209183 #8661]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-02T01:50:03.210866 #8661]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-02T01:52:02.049305 #8901]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-02T01:52:02.049914 #8901]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-02T01:52:02.050171 #8901]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-02T01:52:02.050348 #8901]  INFO -- : Executing: select * from exportsimports where countryid = 12342
+I, [2014-02-02T01:52:02.050519 #8901]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-02T01:52:02.050701 #8901]  INFO -- : Executing: select exportsimports.* from exportsimports where country LIKE '%%' order by country ASC
+I, [2014-02-02T01:52:02.050875 #8901]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-02T01:52:02.051128 #8901]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-02T01:52:02.051355 #8901]  INFO -- : Executing: select count(countryid) from exportsimports
+I, [2014-02-02T01:52:02.051505 #8901]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-02T01:52:02.051754 #8901]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-02T01:52:02.052007 #8901]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-02T01:52:02.052252 #8901]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-02T01:52:02.052499 #8901]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-02T01:52:02.052706 #8901]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-02T01:52:02.052913 #8901]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-02T01:52:02.053043 #8901]  INFO -- : Executing: insert into ExportsImports(country, year, month, type, amount) values('China', 2014, 01, 'e', 23435)
+I, [2014-02-02T01:52:02.053175 #8901]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-02T01:52:02.053345 #8901]  INFO -- : Executing: select * from countries where country = ''
+I, [2014-02-02T01:52:02.053583 #8901]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-02T01:52:02.054011 #8901]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-02T01:52:02.054227 #8901]  INFO -- : Executing: select * from countries where country = ''
+I, [2014-02-02T01:52:02.054422 #8901]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-02T01:52:02.054802 #8901]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-02T01:52:02.055134 #8901]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-02T23:14:50.289795 #9946]  INFO -- : Executing: select count(countryid) from exportsimports
+I, [2014-02-02T23:14:50.290543 #9946]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-02T23:14:50.290902 #9946]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-02T23:14:50.291160 #9946]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-02T23:14:50.291388 #9946]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-02T23:14:50.291613 #9946]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-02T23:14:50.291835 #9946]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-02T23:14:50.292053 #9946]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-02T23:14:50.292209 #9946]  INFO -- : Executing: select * from countries where country = ''
+I, [2014-02-02T23:14:50.292343 #9946]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-02T23:14:50.292565 #9946]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-02T23:14:50.292838 #9946]  INFO -- : Executing: select * from countries where country = ''
+I, [2014-02-02T23:14:50.293072 #9946]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-02T23:14:50.293444 #9946]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-02T23:14:50.293801 #9946]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-02T23:14:50.294061 #9946]  INFO -- : Executing: insert into ExportsImports(country, year, month, type, amount) values('China', 2014, 01, 'e', 23435)
+I, [2014-02-02T23:14:50.294295 #9946]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-02T23:14:50.294663 #9946]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-02T23:14:50.295099 #9946]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-02T23:14:50.295321 #9946]  INFO -- : Executing: select * from exportsimports where countryid = 12342
+I, [2014-02-02T23:14:50.295527 #9946]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-02T23:14:50.295945 #9946]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-02T23:14:50.296305 #9946]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-02T23:14:50.296571 #9946]  INFO -- : Executing: select exportsimports.* from exportsimports where country LIKE '%%' order by country ASC
+I, [2014-02-02T23:14:50.296821 #9946]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T11:21:22.585565 #10564]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T11:21:22.586892 #10564]  INFO -- : Executing: select exportsimports * from exportsimports where country LIKE '%%' order by country ASC
+I, [2014-02-03T11:21:22.587080 #10564]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T11:21:22.587378 #10564]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T11:21:22.587617 #10564]  INFO -- : Executing: select count(countryid) from exportsimports
+I, [2014-02-03T11:21:22.587806 #10564]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T11:21:22.588096 #10564]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T11:21:22.588394 #10564]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T11:21:22.588615 #10564]  INFO -- : Executing: select * from exportsimports where countryid = 12342
+I, [2014-02-03T11:21:22.588798 #10564]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T11:21:22.589087 #10564]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T11:21:22.589378 #10564]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T11:21:22.589583 #10564]  INFO -- : Executing: insert into ExportsImports(country, year, month, type, amount) values('China', 2014, 01, 'e', 23435)
+I, [2014-02-03T11:21:22.589771 #10564]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T11:21:22.590036 #10564]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T11:21:22.590322 #10564]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T11:21:22.590602 #10564]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T11:21:22.590885 #10564]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T11:21:22.591101 #10564]  INFO -- : Executing: select * from countries where country = ''
+I, [2014-02-03T11:21:22.591283 #10564]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T11:21:22.591495 #10564]  INFO -- : Executing: select * from countries where country = ''
+I, [2014-02-03T11:21:22.591676 #10564]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T11:21:22.591957 #10564]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T11:21:22.592252 #10564]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T11:21:22.592568 #10564]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T11:27:54.503369 #10637]  INFO -- : Executing: CREATE TABLE exportsimports (countryid INTEGER PRIMARY KEY AUTOINCREMENT, country varchar(255), year integer, month integer, type bit(i/e), amount integer, country_countryid integer)
+I, [2014-02-03T11:29:05.740037 #10682]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T11:29:05.741429 #10682]  INFO -- : Executing: select * from countries where country = ''
+I, [2014-02-03T11:29:05.741649 #10682]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T11:29:05.741960 #10682]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T11:29:05.742159 #10682]  INFO -- : Executing: insert into ExportsImports(country, year, month, type, amount) values('China', 2014, 01, 'e', 23435)
+I, [2014-02-03T11:29:05.742299 #10682]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T11:29:05.742543 #10682]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T11:29:05.742842 #10682]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T11:29:05.743258 #10682]  INFO -- : Executing: select count(countryid) from exportsimports
+I, [2014-02-03T11:29:05.743568 #10682]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T11:29:05.744092 #10682]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T11:29:05.746597 #10682]  INFO -- : Executing: select * from exportsimports where countryid = 12342
+I, [2014-02-03T11:29:05.747190 #10682]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T11:29:05.747885 #10682]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T11:29:05.748318 #10682]  INFO -- : Executing: select exportsimports * from exportsimports where country LIKE '%%' order by country ASC
+I, [2014-02-03T11:29:05.748546 #10682]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T11:29:05.748810 #10682]  INFO -- : Executing: select * from countries where country = ''
+I, [2014-02-03T11:29:05.749054 #10682]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T11:29:05.749403 #10682]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T11:29:05.749750 #10682]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T11:29:05.750091 #10682]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T11:29:05.750481 #10682]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T11:29:05.750832 #10682]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T11:29:05.751196 #10682]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T11:29:05.751561 #10682]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T11:29:09.191792 #10706]  INFO -- : Executing: CREATE TABLE exportsimports (countryid INTEGER PRIMARY KEY AUTOINCREMENT, country varchar(255), year integer, month integer, type varchar(1), amount integer, country_countryid integer)
+I, [2014-02-03T11:29:09.196842 #10706]  INFO -- : Executing: CREATE TABLE countries (countryid INTEGER PRIMARY KEY AUTOINCREMENT, name country(250))
+I, [2014-02-03T11:29:11.265110 #10728]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T11:29:11.269120 #10728]  INFO -- : Executing: delete from countries
+I, [2014-02-03T11:29:11.276878 #10728]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T11:29:11.279588 #10728]  INFO -- : Executing: delete from countries
+I, [2014-02-03T11:29:11.282730 #10728]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T11:29:11.285754 #10728]  INFO -- : Executing: delete from countries
+I, [2014-02-03T11:29:11.287941 #10728]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T11:29:11.290775 #10728]  INFO -- : Executing: delete from countries
+I, [2014-02-03T11:29:11.293746 #10728]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T11:29:11.295709 #10728]  INFO -- : Executing: delete from countries
+I, [2014-02-03T11:29:11.298829 #10728]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T11:29:11.303289 #10728]  INFO -- : Executing: delete from countries
+I, [2014-02-03T11:29:11.306631 #10728]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T11:29:11.309227 #10728]  INFO -- : Executing: delete from countries
+I, [2014-02-03T11:29:11.366249 #10728]  INFO -- : Executing: select * from countries where country = ''
+I, [2014-02-03T11:29:11.366521 #10728]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T11:29:11.370211 #10728]  INFO -- : Executing: delete from countries
+I, [2014-02-03T11:29:11.371904 #10728]  INFO -- : Executing: insert into ExportsImports(country, year, month, type, amount) values('China', 2014, 01, 'e', 23435)
+I, [2014-02-03T11:29:11.374433 #10728]  INFO -- : Executing: insert into ExportsImports(country, year, month, type, amount) values('China', 2015, 01, 'i', 78239)
+I, [2014-02-03T11:29:11.376020 #10728]  INFO -- : Executing: select exportsimports * from exportsimports where country LIKE '%%' order by country ASC
+I, [2014-02-03T11:29:11.376201 #10728]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T11:29:11.378072 #10728]  INFO -- : Executing: delete from countries
+I, [2014-02-03T11:29:11.379972 #10728]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T11:29:11.381975 #10728]  INFO -- : Executing: delete from countries
+I, [2014-02-03T11:29:11.383613 #10728]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T11:29:11.385814 #10728]  INFO -- : Executing: delete from countries
+I, [2014-02-03T11:29:11.388645 #10728]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T11:29:11.390493 #10728]  INFO -- : Executing: delete from countries
+I, [2014-02-03T11:29:11.393720 #10728]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T11:29:11.395422 #10728]  INFO -- : Executing: delete from countries
+I, [2014-02-03T11:29:11.397734 #10728]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T11:29:11.399153 #10728]  INFO -- : Executing: delete from countries
+I, [2014-02-03T11:29:11.401125 #10728]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T11:29:11.402572 #10728]  INFO -- : Executing: delete from countries
+I, [2014-02-03T11:29:11.404080 #10728]  INFO -- : Executing: select count(countryid) from exportsimports
+I, [2014-02-03T11:29:11.404322 #10728]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T11:29:11.406173 #10728]  INFO -- : Executing: delete from countries
+I, [2014-02-03T11:29:11.407650 #10728]  INFO -- : Executing: select exportsimports * from exportsimports where country LIKE '%%' order by country ASC
+I, [2014-02-03T11:29:11.407808 #10728]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T11:29:11.424723 #10728]  INFO -- : Executing: delete from countries
+I, [2014-02-03T11:29:11.426261 #10728]  INFO -- : Executing: select * from countries where country = ''
+I, [2014-02-03T11:29:11.426463 #10728]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T11:29:11.427831 #10728]  INFO -- : Executing: delete from countries
+I, [2014-02-03T11:29:11.430041 #10728]  INFO -- : Executing: select * from exportsimports where countryid = 12342
+I, [2014-02-03T11:29:11.430220 #10728]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T11:29:11.431646 #10728]  INFO -- : Executing: delete from countries
+I, [2014-02-03T11:30:16.169719 #10774]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T11:30:16.182690 #10774]  INFO -- : Executing: delete from countries
+I, [2014-02-03T11:30:16.184396 #10774]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T11:30:16.186171 #10774]  INFO -- : Executing: delete from countries
+I, [2014-02-03T11:30:16.187821 #10774]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T11:30:16.190145 #10774]  INFO -- : Executing: delete from countries
+I, [2014-02-03T11:30:16.191800 #10774]  INFO -- : Executing: select * from exportsimports where countryid = 12342
+I, [2014-02-03T11:30:16.191980 #10774]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T11:30:16.194151 #10774]  INFO -- : Executing: delete from countries
+I, [2014-02-03T11:30:16.195671 #10774]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T11:30:16.197816 #10774]  INFO -- : Executing: delete from countries
+I, [2014-02-03T11:30:16.199220 #10774]  INFO -- : Executing: select * from countries where country = ''
+I, [2014-02-03T11:30:16.199395 #10774]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T11:30:16.201515 #10774]  INFO -- : Executing: delete from countries
+I, [2014-02-03T11:30:16.203052 #10774]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T11:30:16.205686 #10774]  INFO -- : Executing: delete from countries
+I, [2014-02-03T11:30:16.207671 #10774]  INFO -- : Executing: select count(countryid) from exportsimports
+I, [2014-02-03T11:30:16.207999 #10774]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T11:30:16.210206 #10774]  INFO -- : Executing: delete from countries
+I, [2014-02-03T11:30:16.211793 #10774]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T11:30:16.214030 #10774]  INFO -- : Executing: delete from countries
+I, [2014-02-03T11:30:16.215654 #10774]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T11:30:16.217975 #10774]  INFO -- : Executing: delete from countries
+I, [2014-02-03T11:30:16.219597 #10774]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T11:30:16.244775 #10774]  INFO -- : Executing: delete from countries
+I, [2014-02-03T11:30:16.246596 #10774]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T11:30:16.248039 #10774]  INFO -- : Executing: delete from countries
+I, [2014-02-03T11:30:16.249950 #10774]  INFO -- : Executing: select * from exportsimports where country LIKE '%%' order by country ASC
+I, [2014-02-03T11:30:16.250144 #10774]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T11:30:16.251510 #10774]  INFO -- : Executing: delete from countries
+I, [2014-02-03T11:30:16.253994 #10774]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T11:30:16.255562 #10774]  INFO -- : Executing: delete from countries
+I, [2014-02-03T11:30:16.257946 #10774]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T11:30:16.259356 #10774]  INFO -- : Executing: delete from countries
+I, [2014-02-03T11:30:16.261649 #10774]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T11:30:16.263034 #10774]  INFO -- : Executing: delete from countries
+I, [2014-02-03T11:30:16.264920 #10774]  INFO -- : Executing: select * from countries where country = ''
+I, [2014-02-03T11:30:16.265116 #10774]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T11:30:16.266572 #10774]  INFO -- : Executing: delete from countries
+I, [2014-02-03T11:30:16.268161 #10774]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T11:30:16.270008 #10774]  INFO -- : Executing: delete from countries
+I, [2014-02-03T11:30:16.280324 #10774]  INFO -- : Executing: insert into ExportsImports(country, year, month, type, amount) values('China', 2014, 01, 'e', 23435)
+I, [2014-02-03T11:30:16.282733 #10774]  INFO -- : Executing: insert into ExportsImports(country, year, month, type, amount) values('China', 2015, 01, 'i', 78239)
+I, [2014-02-03T11:30:16.284325 #10774]  INFO -- : Executing: select * from exportsimports where country LIKE '%%' order by country ASC
+I, [2014-02-03T11:30:16.284661 #10774]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T11:30:16.286418 #10774]  INFO -- : Executing: delete from countries
+I, [2014-02-03T12:06:40.041928 #11262]  INFO -- : Executing: CREATE TABLE exportsimports (id INTEGER PRIMARY KEY AUTOINCREMENT, country varchar(255), year integer, month integer, type varchar(1), amount integer, country_id integer)
+I, [2014-02-03T12:06:40.046313 #11262]  INFO -- : Executing: CREATE TABLE countries (id INTEGER PRIMARY KEY AUTOINCREMENT, country(255))
+I, [2014-02-03T12:06:54.808760 #11288]  INFO -- : Executing: CREATE TABLE exportsimports (id INTEGER PRIMARY KEY AUTOINCREMENT, country varchar(255), year integer, month integer, type varchar(1), amount integer, country_id integer)
+I, [2014-02-03T12:06:54.812973 #11288]  INFO -- : Executing: CREATE TABLE countries (id INTEGER PRIMARY KEY AUTOINCREMENT, country(255))
+I, [2014-02-03T12:12:59.175874 #11387]  INFO -- : Executing: CREATE TABLE exportsimports (id INTEGER PRIMARY KEY AUTOINCREMENT, country varchar(255), year integer, month integer, type varchar(1), amount integer, country_id integer)
+I, [2014-02-03T12:12:59.179082 #11387]  INFO -- : Executing: CREATE TABLE countries (id INTEGER PRIMARY KEY AUTOINCREMENT, country(250))
+I, [2014-02-03T12:23:14.994346 #11667]  INFO -- : Executing: CREATE TABLE exportsimports (id INTEGER PRIMARY KEY AUTOINCREMENT, country varchar(255), year integer, month integer, type varchar(1), amount integer, country_id integer)
+I, [2014-02-03T12:23:14.997928 #11667]  INFO -- : Executing: CREATE TABLE countries (id INTEGER PRIMARY KEY AUTOINCREMENT, country(250))
+I, [2014-02-03T12:25:26.745047 #11765]  INFO -- : Executing: CREATE TABLE exportsimports (id INTEGER PRIMARY KEY AUTOINCREMENT, country varchar(255), year integer, month integer, type varchar(1), amount integer, country_id integer)
+I, [2014-02-03T12:25:26.748387 #11765]  INFO -- : Executing: CREATE TABLE countries (id INTEGER PRIMARY KEY AUTOINCREMENT, country(250))
+I, [2014-02-03T12:27:00.883403 #12213]  INFO -- : Executing: select * from countries where country = ''
+I, [2014-02-03T12:27:00.883872 #12213]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T12:27:00.887751 #12213]  INFO -- : Executing: delete from countries
+I, [2014-02-03T12:27:00.888117 #12213]  INFO -- : Executing: select * from countries where country = ''
+I, [2014-02-03T12:27:00.888376 #12213]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T12:27:00.890169 #12213]  INFO -- : Executing: delete from countries
+I, [2014-02-03T12:27:00.890426 #12213]  INFO -- : Executing: select * from countries where country = ''
+I, [2014-02-03T12:27:00.890592 #12213]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T12:27:00.891801 #12213]  INFO -- : Executing: delete from countries
+I, [2014-02-03T12:27:00.891993 #12213]  INFO -- : Executing: select * from countries order by country ASC
+I, [2014-02-03T12:27:00.892147 #12213]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T12:27:00.893608 #12213]  INFO -- : Executing: delete from countries
+I, [2014-02-03T12:27:00.893815 #12213]  INFO -- : Executing: select count(countryid) from countries
+I, [2014-02-03T12:27:00.893953 #12213]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T12:27:00.895182 #12213]  INFO -- : Executing: delete from countries
+I, [2014-02-03T12:27:00.895383 #12213]  INFO -- : Executing: select * from countries where country = ''
+I, [2014-02-03T12:27:00.895538 #12213]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T12:27:00.897301 #12213]  INFO -- : Executing: delete from countries
+I, [2014-02-03T12:27:35.636178 #12250]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T12:27:35.641344 #12250]  INFO -- : Executing: delete from countries
+I, [2014-02-03T12:27:35.641930 #12250]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T12:27:35.645277 #12250]  INFO -- : Executing: delete from countries
+I, [2014-02-03T12:27:35.645765 #12250]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T12:27:35.648575 #12250]  INFO -- : Executing: delete from countries
+I, [2014-02-03T12:27:35.648926 #12250]  INFO -- : Executing: insert into ExportsImports(country, year, month, type, amount) values('China', 2014, 01, 'e', 23435)
+I, [2014-02-03T12:27:35.651614 #12250]  INFO -- : Executing: insert into ExportsImports(country, year, month, type, amount) values('China', 2015, 01, 'i', 78239)
+I, [2014-02-03T12:27:35.654383 #12250]  INFO -- : Executing: select * from exportsimports where country LIKE '%%' order by country ASC
+I, [2014-02-03T12:27:35.654690 #12250]  INFO -- : Executing: select * from countries order by country ASC
+I, [2014-02-03T12:27:35.654917 #12250]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T12:27:35.657553 #12250]  INFO -- : Executing: delete from countries
+I, [2014-02-03T12:27:35.657950 #12250]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T12:27:35.660144 #12250]  INFO -- : Executing: delete from countries
+I, [2014-02-03T12:27:35.660480 #12250]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T12:27:35.662797 #12250]  INFO -- : Executing: delete from countries
+I, [2014-02-03T12:27:35.663131 #12250]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T12:27:35.665902 #12250]  INFO -- : Executing: delete from countries
+I, [2014-02-03T12:27:35.666158 #12250]  INFO -- : Executing: select * from countries where country = ''
+I, [2014-02-03T12:27:35.666355 #12250]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T12:27:35.668491 #12250]  INFO -- : Executing: delete from countries
+I, [2014-02-03T12:27:35.668732 #12250]  INFO -- : Executing: select * from exportsimports where country LIKE '%%' order by country ASC
+I, [2014-02-03T12:27:35.668940 #12250]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T12:27:35.671348 #12250]  INFO -- : Executing: delete from countries
+I, [2014-02-03T12:27:35.671665 #12250]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T12:27:35.674336 #12250]  INFO -- : Executing: delete from countries
+I, [2014-02-03T12:27:35.674783 #12250]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T12:27:35.677524 #12250]  INFO -- : Executing: delete from countries
+I, [2014-02-03T12:27:35.677854 #12250]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T12:27:35.680344 #12250]  INFO -- : Executing: delete from countries
+I, [2014-02-03T12:27:35.680619 #12250]  INFO -- : Executing: select * from countries where country = ''
+I, [2014-02-03T12:27:35.680822 #12250]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T12:27:35.683199 #12250]  INFO -- : Executing: delete from countries
+I, [2014-02-03T12:27:35.683511 #12250]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T12:27:35.686029 #12250]  INFO -- : Executing: delete from countries
+I, [2014-02-03T12:27:35.686277 #12250]  INFO -- : Executing: select count(countryid) from exportsimports
+I, [2014-02-03T12:27:35.686474 #12250]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T12:27:35.688583 #12250]  INFO -- : Executing: delete from countries
+I, [2014-02-03T12:27:35.688909 #12250]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T12:27:35.691232 #12250]  INFO -- : Executing: delete from countries
+I, [2014-02-03T12:27:35.691561 #12250]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T12:27:35.694238 #12250]  INFO -- : Executing: delete from countries
+I, [2014-02-03T12:27:35.694556 #12250]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T12:27:35.696874 #12250]  INFO -- : Executing: delete from countries
+I, [2014-02-03T12:27:35.697194 #12250]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T12:27:35.699375 #12250]  INFO -- : Executing: delete from countries
+I, [2014-02-03T12:28:16.667930 #12281]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T12:28:16.671069 #12281]  INFO -- : Executing: delete from countries
+I, [2014-02-03T12:28:16.671344 #12281]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T12:28:16.673464 #12281]  INFO -- : Executing: delete from countries
+I, [2014-02-03T12:28:16.673829 #12281]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T12:28:16.675468 #12281]  INFO -- : Executing: delete from countries
+I, [2014-02-03T12:28:16.675995 #12281]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T12:28:16.678679 #12281]  INFO -- : Executing: delete from countries
+I, [2014-02-03T12:28:17.020942 #12281]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-03T12:28:17.022946 #12281]  INFO -- : Executing: delete from countries
+I, [2014-02-03T12:31:18.498831 #12366]  INFO -- : Executing: CREATE TABLE exportsimports (id INTEGER PRIMARY KEY AUTOINCREMENT, country varchar(255), year integer, month integer, type varchar(1), amount integer, country_id integer)
+I, [2014-02-03T12:31:18.502496 #12366]  INFO -- : Executing: CREATE TABLE countries (id INTEGER PRIMARY KEY AUTOINCREMENT, country varchar(250))
+I, [2014-02-03T12:35:08.295504 #12537]  INFO -- : Executing: CREATE TABLE exportsimports (id INTEGER PRIMARY KEY AUTOINCREMENT, country varchar(255), year integer, month integer, type varchar(1), amount integer, country_id integer)
+I, [2014-02-03T12:35:08.299324 #12537]  INFO -- : Executing: CREATE TABLE countries (id INTEGER PRIMARY KEY AUTOINCREMENT, country varchar(250))
+I, [2014-02-03T12:37:52.093981 #12666]  INFO -- : Executing: select * from countries where country = ''
+I, [2014-02-03T12:37:52.094555 #12666]  INFO -- : Executing: insert into countries(country) values('')
+I, [2014-02-03T12:37:52.099864 #12666]  INFO -- : Executing: select * from exportsimports where country LIKE '%%' order by country ASC
+I, [2014-02-03T12:37:52.100708 #12666]  INFO -- : Executing: select count(countryid) from exportsimports
+I, [2014-02-03T12:37:52.101650 #12666]  INFO -- : Executing: insert into ExportsImports(country, year, month, type, amount) values('China', 2014, 01, 'e', 23435)
+I, [2014-02-03T12:37:52.105147 #12666]  INFO -- : Executing: insert into ExportsImports(country, year, month, type, amount) values('China', 2015, 01, 'i', 78239)
+I, [2014-02-03T12:37:52.107838 #12666]  INFO -- : Executing: select * from exportsimports where country LIKE '%%' order by country ASC
+I, [2014-02-03T12:37:52.108142 #12666]  INFO -- : Executing: select * from countries order by country ASC
+I, [2014-02-03T12:37:52.109356 #12666]  INFO -- : Executing: select * from countries where country = ''
+I, [2014-02-03T12:48:11.374355 #12793]  INFO -- : Executing: insert into ExportsImports(country, year, month, type, amount) values('China', 2014, 01, 'e', 23435)
+I, [2014-02-03T12:48:11.377620 #12793]  INFO -- : Executing: insert into ExportsImports(country, year, month, type, amount) values('China', 2015, 01, 'i', 78239)
+I, [2014-02-03T12:48:11.378822 #12793]  INFO -- : Executing: select * from exportsimports where country LIKE '%%' order by country ASC
+I, [2014-02-03T12:48:11.379106 #12793]  INFO -- : Executing: select * from countries order by country ASC
+I, [2014-02-03T12:48:11.379467 #12793]  INFO -- : Executing: select count(countryid) from exportsimports
+I, [2014-02-03T12:48:11.379913 #12793]  INFO -- : Executing: select * from countries where country = 'China'
+I, [2014-02-03T12:48:11.380017 #12793]  INFO -- : Executing: insert into countries(country) values('China')
+I, [2014-02-03T12:48:11.381985 #12793]  INFO -- : Executing: select * from exportsimports where country LIKE '%%' order by country ASC
+I, [2014-02-03T12:48:11.382225 #12793]  INFO -- : Executing: select * from countries order by country ASC
+I, [2014-02-03T12:48:11.382482 #12793]  INFO -- : Executing: select * from countries where country = 'China'
+I, [2014-02-03T16:56:00.694407 #4531]  INFO -- : Executing: select count(countryid) from exportsimports
+I, [2014-02-03T16:56:00.713676 #4531]  INFO -- : Executing: select * from countries where country = 'China'
+I, [2014-02-03T16:56:00.713980 #4531]  INFO -- : Executing: select * from countries where country = 'Japan'
+I, [2014-02-03T16:56:00.714137 #4531]  INFO -- : Executing: insert into countries(country) values('Japan')
+I, [2014-02-03T16:56:00.718442 #4531]  INFO -- : Executing: insert into exportsimports(country_id, year, month, type, amount) values(2, 2014, 1, e, 23435)
+I, [2014-02-03T16:56:00.718747 #4531]  INFO -- : Executing: select * from exportsimports where country LIKE '%%' order by country ASC
+I, [2014-02-03T16:56:00.719035 #4531]  INFO -- : Executing: select * from countries order by country ASC
+I, [2014-02-03T16:56:00.719512 #4531]  INFO -- : Executing: select * from exportsimports where id = 12342
+I, [2014-02-03T16:56:00.719938 #4531]  INFO -- : Executing: select * from countries where country = 'China'
+I, [2014-02-03T16:56:00.720136 #4531]  INFO -- : Executing: insert into exportsimports(country_id, year, month, type, amount) values(2, 2015, 1, e, 2342)
+I, [2014-02-03T16:56:00.728423 #4531]  INFO -- : Executing: insert into ExportsImports(country, year, month, type, amount) values('China', 2014, 01, 'e', 23435)
+I, [2014-02-03T16:56:00.732007 #4531]  INFO -- : Executing: insert into ExportsImports(country, year, month, type, amount) values('China', 2015, 01, 'i', 78239)
+I, [2014-02-03T16:56:00.734552 #4531]  INFO -- : Executing: select * from exportsimports where country LIKE '%%' order by country ASC
+I, [2014-02-03T16:56:00.734943 #4531]  INFO -- : Executing: select * from countries order by country ASC
+I, [2014-02-03T16:56:00.735446 #4531]  INFO -- : Executing: select * from countries where country = 'China'
+I, [2014-02-03T16:56:00.735642 #4531]  INFO -- : Executing: insert into exportsimports(country_id, year, month, type, amount) values(2, 2014, 1, e, 23435)
+I, [2014-02-03T18:22:40.608415 #6174]  INFO -- : Executing: select * from exportsimports where country LIKE '%%' order by country ASC
+I, [2014-02-03T18:22:40.609198 #6174]  INFO -- : Executing: select * from countries order by country ASC
+I, [2014-02-03T18:22:40.609571 #6174]  INFO -- : Executing: select * from countries where country = 'China'
+I, [2014-02-03T18:22:40.609761 #6174]  INFO -- : Executing: select * from countries where country = 'Japan'
+I, [2014-02-03T18:22:40.609940 #6174]  INFO -- : Executing: insert into exportsimports(country_id, year, month, type, amount) values(2, 2014, 1, e, 23435)
+I, [2014-02-03T18:22:40.610451 #6174]  INFO -- : Executing: select * from countries where country = 'China'
+I, [2014-02-03T18:22:40.610724 #6174]  INFO -- : Executing: insert into exportsimports(country_id, year, month, type, amount) values(2, 2015, 1, e, 2342)
+I, [2014-02-03T18:22:40.611366 #6174]  INFO -- : Executing: select * from exportsimports where id = 12342
+I, [2014-02-03T18:22:40.611952 #6174]  INFO -- : Executing: select * from countries where country = 'China'
+I, [2014-02-03T18:22:40.612171 #6174]  INFO -- : Executing: insert into exportsimports(country_id, year, month, type, amount) values(2, 2014, 1, e, 23435)
+I, [2014-02-03T18:22:40.612441 #6174]  INFO -- : Executing: select count(countryid) from exportsimports
+I, [2014-02-03T18:22:40.620337 #6174]  INFO -- : Executing: insert into ExportsImports(country, year, month, type, amount) values('China', 2014, 01, 'e', 23435)
+I, [2014-02-03T18:22:40.625334 #6174]  INFO -- : Executing: insert into ExportsImports(country, year, month, type, amount) values('China', 2015, 01, 'i', 78239)
+I, [2014-02-03T18:22:40.627909 #6174]  INFO -- : Executing: select * from exportsimports where country LIKE '%%' order by country ASC
+I, [2014-02-03T18:22:40.628305 #6174]  INFO -- : Executing: select * from countries order by country ASC
+I, [2014-02-03T18:24:49.557021 #6227]  INFO -- : Executing: select * from countries order by country ASC
+I, [2014-02-03T18:24:49.562618 #6221]  INFO -- : Executing: select country, year, month, type, amount from ExportsImports
+I, [2014-02-03T18:24:49.563165 #6221]  INFO -- : Executing: select count(id) from ExportsImports
+I, [2014-02-03T18:24:49.566466 #6221]  INFO -- : Executing: select * from countries where country = 'China'
+I, [2014-02-03T18:24:49.566778 #6221]  INFO -- : Executing: select * from countries where country = 'India'
+I, [2014-02-03T18:24:49.567030 #6221]  INFO -- : Executing: insert into countries(country) values('India')
+I, [2014-02-03T18:24:49.571523 #6221]  INFO -- : Executing: select * from countries where country = 'Australia'
+I, [2014-02-03T18:24:49.571763 #6221]  INFO -- : Executing: insert into countries(country) values('Australia')
+I, [2014-02-03T18:24:49.716538 #6233]  INFO -- : Executing: select * from countries order by country ASC
+I, [2014-02-03T18:24:49.721761 #6221]  INFO -- : Executing: select * from countries where country = 'China'
+I, [2014-02-03T18:24:49.722035 #6221]  INFO -- : Executing: select * from countries where country = 'India'
+I, [2014-02-03T18:24:49.722174 #6221]  INFO -- : Executing: select * from countries where country = 'Australia'
+I, [2014-02-03T18:24:49.873391 #6237]  INFO -- : Executing: select * from countries order by country ASC
+I, [2014-02-03T18:24:50.026328 #6241]  INFO -- : Executing: select * from countries order by country ASC
+I, [2014-02-03T18:24:50.186512 #6246]  INFO -- : Executing: select * from countries order by country ASC
+I, [2014-02-03T18:24:50.347160 #6251]  INFO -- : Executing: select * from countries order by country ASC
+I, [2014-02-03T18:24:50.511410 #6256]  INFO -- : Executing: select * from countries order by country ASC
+I, [2014-02-03T18:24:50.670875 #6261]  INFO -- : Executing: select * from countries order by country ASC
+I, [2014-02-03T18:24:50.839555 #6266]  INFO -- : Executing: select * from countries order by country ASC
+I, [2014-02-03T18:24:51.006258 #6221]  INFO -- : Executing: select count(id) from ExportsImports
+I, [2014-02-03T18:24:51.007055 #6221]  INFO -- : Executing: select * from countries where country = 'Australia'
+I, [2014-02-03T18:24:51.155629 #6275]  INFO -- : Executing: select * from countries order by country ASC
+I, [2014-02-03T18:24:51.312436 #6279]  INFO -- : Executing: select * from countries order by country ASC
+I, [2014-02-03T21:03:26.449595 #8193]  INFO -- : Executing: CREATE TABLE exportsimports (id INTEGER PRIMARY KEY AUTOINCREMENT, year integer, month integer, type varchar(1), amount integer, country_id integer)
+I, [2014-02-03T21:03:26.454351 #8193]  INFO -- : Executing: CREATE TABLE countries (id INTEGER PRIMARY KEY AUTOINCREMENT, country varchar(250))
+I, [2014-02-03T21:03:34.778767 #8234]  INFO -- : Executing: CREATE TABLE exportsimports (id INTEGER PRIMARY KEY AUTOINCREMENT, year integer, month integer, type varchar(1), amount integer, country_id integer)
+I, [2014-02-03T21:03:34.782826 #8234]  INFO -- : Executing: CREATE TABLE countries (id INTEGER PRIMARY KEY AUTOINCREMENT, country varchar(250))
+I, [2014-02-04T00:32:02.657312 #13613]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-04T00:32:02.662017 #13613]  INFO -- : Executing: delete from countries
+I, [2014-02-04T00:32:02.663532 #13613]  INFO -- : Executing: select * from countries where country = 'China'
+I, [2014-02-04T00:32:02.663688 #13613]  INFO -- : Executing: insert into countries(country) values('China')
+I, [2014-02-04T00:32:02.666075 #13613]  INFO -- : Executing: insert into exportsimports(country_id, year, month, type, amount) values(1, 2014, 1, e, 23435)
+I, [2014-02-04T00:32:02.666316 #13613]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-04T00:32:02.667994 #13613]  INFO -- : Executing: delete from countries
+I, [2014-02-04T00:32:02.669990 #13613]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-04T00:32:02.671389 #13613]  INFO -- : Executing: delete from countries
+I, [2014-02-04T00:32:02.674027 #13613]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-04T00:32:02.675438 #13613]  INFO -- : Executing: delete from countries
+I, [2014-02-04T00:32:02.677766 #13613]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-04T00:32:02.679116 #13613]  INFO -- : Executing: delete from countries
+I, [2014-02-04T00:32:02.684835 #13613]  INFO -- : Executing: select count(countryid) from exportsimports
+I, [2014-02-04T00:32:02.685166 #13613]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-04T00:32:02.687020 #13613]  INFO -- : Executing: delete from countries
+I, [2014-02-04T00:32:02.689082 #13613]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-04T00:32:02.690598 #13613]  INFO -- : Executing: delete from countries
+I, [2014-02-04T00:32:02.692897 #13613]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-04T00:32:02.694483 #13613]  INFO -- : Executing: delete from countries
+I, [2014-02-04T00:32:02.696075 #13613]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-04T00:32:02.697584 #13613]  INFO -- : Executing: delete from countries
+I, [2014-02-04T00:32:02.698842 #13613]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-04T00:32:02.700530 #13613]  INFO -- : Executing: delete from countries
+I, [2014-02-04T00:32:02.702062 #13613]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-04T00:32:02.703385 #13613]  INFO -- : Executing: delete from countries
+I, [2014-02-04T00:32:02.705461 #13613]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-04T00:32:02.707219 #13613]  INFO -- : Executing: delete from countries
+I, [2014-02-04T00:32:02.709393 #13613]  INFO -- : Executing: insert into ExportsImports(country, year, month, type, amount) values('China', 2014, 01, 'e', 23435)
+I, [2014-02-04T00:32:02.709686 #13613]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-04T00:32:02.711293 #13613]  INFO -- : Executing: delete from countries
+I, [2014-02-04T00:32:02.714164 #13613]  INFO -- : Executing: select * from exportsimports where country LIKE '%%' order by country ASC
+I, [2014-02-04T00:32:02.723777 #13613]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-04T00:32:02.725812 #13613]  INFO -- : Executing: delete from countries
+I, [2014-02-04T00:32:02.727415 #13613]  INFO -- : Executing: select * from countries where country = 'China'
+I, [2014-02-04T00:32:02.727641 #13613]  INFO -- : Executing: insert into countries(country) values('China')
+I, [2014-02-04T00:32:02.729595 #13613]  INFO -- : Executing: insert into exportsimports(country_id, year, month, type, amount) values(2, 2015, 1, e, 2342)
+I, [2014-02-04T00:32:02.729847 #13613]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-04T00:32:02.731204 #13613]  INFO -- : Executing: delete from countries
+I, [2014-02-04T00:32:02.733082 #13613]  INFO -- : Executing: select * from exportsimports where id = 12342
+I, [2014-02-04T00:32:02.733274 #13613]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-04T00:32:02.734423 #13613]  INFO -- : Executing: delete from countries
+I, [2014-02-04T00:32:02.735725 #13613]  INFO -- : Executing: select * from countries where country = 'China'
+I, [2014-02-04T00:32:02.735862 #13613]  INFO -- : Executing: insert into countries(country) values('China')
+I, [2014-02-04T00:32:02.737320 #13613]  INFO -- : Executing: select * from countries where country = 'Japan'
+I, [2014-02-04T00:32:02.737449 #13613]  INFO -- : Executing: insert into countries(country) values('Japan')
+I, [2014-02-04T00:32:02.738750 #13613]  INFO -- : Executing: insert into exportsimports(country_id, year, month, type, amount) values(3, 2014, 1, e, 23435)
+I, [2014-02-04T00:32:02.738983 #13613]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-04T00:32:02.740155 #13613]  INFO -- : Executing: delete from countries
+I, [2014-02-04T00:32:02.741562 #13613]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-04T00:32:02.742877 #13613]  INFO -- : Executing: delete from countries
+I, [2014-02-04T00:32:02.744659 #13613]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-04T00:32:02.746186 #13613]  INFO -- : Executing: delete from countries
+I, [2014-02-04T00:49:35.297370 #14337]  INFO -- : Executing: select * from countries where country = 'China'
+I, [2014-02-04T00:49:35.297852 #14337]  INFO -- : Executing: insert into countries(country) values('China')
+I, [2014-02-04T00:49:35.301680 #14337]  INFO -- : Executing: select * from countries where country = 'China'
+I, [2014-02-04T00:49:35.302364 #14337]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-04T00:49:35.306952 #14337]  INFO -- : Executing: delete from countries
+I, [2014-02-04T00:49:35.309086 #14337]  INFO -- : Executing: select count(countryid) from countries
+I, [2014-02-04T00:49:35.309545 #14337]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-04T00:49:35.312805 #14337]  INFO -- : Executing: delete from countries
+I, [2014-02-04T00:49:35.316219 #14337]  INFO -- : Executing: select * from countries where country = 'China'
+I, [2014-02-04T00:49:35.316556 #14337]  INFO -- : Executing: insert into countries(country) values('China')
+I, [2014-02-04T00:49:35.320205 #14337]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-04T00:49:35.322920 #14337]  INFO -- : Executing: delete from countries
+I, [2014-02-04T00:49:35.327268 #14337]  INFO -- : Executing: select * from countries where country = 'China'
+I, [2014-02-04T00:49:35.327628 #14337]  INFO -- : Executing: insert into countries(country) values('China')
+I, [2014-02-04T00:49:35.332662 #14337]  INFO -- : Executing: select count(countryid) from countries
+I, [2014-02-04T00:49:35.333191 #14337]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-04T00:49:35.336194 #14337]  INFO -- : Executing: delete from countries
+I, [2014-02-04T00:49:35.338670 #14337]  INFO -- : Executing: select * from countries where country = 'India'
+I, [2014-02-04T00:49:35.338862 #14337]  INFO -- : Executing: insert into countries(country) values('India')
+I, [2014-02-04T00:49:35.341469 #14337]  INFO -- : Executing: select * from countries where country = 'China'
+I, [2014-02-04T00:49:35.341671 #14337]  INFO -- : Executing: insert into countries(country) values('China')
+I, [2014-02-04T00:49:35.343760 #14337]  INFO -- : Executing: select * from countries order by country ASC
+I, [2014-02-04T00:49:35.344211 #14337]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-04T00:49:35.347046 #14337]  INFO -- : Executing: delete from countries
+I, [2014-02-04T00:49:35.350022 #14337]  INFO -- : Executing: select * from countries order by country ASC
+I, [2014-02-04T00:49:35.350284 #14337]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-04T00:49:35.352064 #14337]  INFO -- : Executing: delete from countries
+I, [2014-02-04T00:50:28.085362 #14366]  INFO -- : Executing: select * from countries where country = 'India'
+I, [2014-02-04T00:50:28.086196 #14366]  INFO -- : Executing: insert into countries(country) values('India')
+I, [2014-02-04T00:50:28.103682 #14366]  INFO -- : Executing: select * from countries where country = 'China'
+I, [2014-02-04T00:50:28.104023 #14366]  INFO -- : Executing: insert into countries(country) values('China')
+I, [2014-02-04T00:50:28.110250 #14366]  INFO -- : Executing: select * from countries order by country ASC
+I, [2014-02-04T00:50:28.110848 #14366]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-04T00:50:28.117086 #14366]  INFO -- : Executing: delete from countries
+I, [2014-02-04T00:50:28.120172 #14366]  INFO -- : Executing: select count(id) from countries
+I, [2014-02-04T00:50:28.120400 #14366]  INFO -- : Executing: select * from countries where country = 'China'
+I, [2014-02-04T00:50:28.120530 #14366]  INFO -- : Executing: insert into countries(country) values('China')
+I, [2014-02-04T00:50:28.122683 #14366]  INFO -- : Executing: select count(id) from countries
+I, [2014-02-04T00:50:28.123181 #14366]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-04T00:50:28.127103 #14366]  INFO -- : Executing: delete from countries
+I, [2014-02-04T00:50:28.137726 #14366]  INFO -- : Executing: select * from countries order by country ASC
+I, [2014-02-04T00:50:28.137973 #14366]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-04T00:50:28.139736 #14366]  INFO -- : Executing: delete from countries
+I, [2014-02-04T00:50:28.142975 #14366]  INFO -- : Executing: select * from countries where country = 'China'
+I, [2014-02-04T00:50:28.143124 #14366]  INFO -- : Executing: insert into countries(country) values('China')
+I, [2014-02-04T00:50:28.145705 #14366]  INFO -- : Executing: select count(countryid) from countries
+I, [2014-02-04T00:50:28.146033 #14366]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-04T00:50:28.147592 #14366]  INFO -- : Executing: delete from countries
+I, [2014-02-04T00:50:28.150083 #14366]  INFO -- : Executing: select * from countries where country = 'China'
+I, [2014-02-04T00:50:28.150355 #14366]  INFO -- : Executing: insert into countries(country) values('China')
+I, [2014-02-04T00:50:28.154301 #14366]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-04T00:50:28.158855 #14366]  INFO -- : Executing: delete from countries
+I, [2014-02-04T00:50:28.170471 #14366]  INFO -- : Executing: select * from countries where country = 'China'
+I, [2014-02-04T00:50:28.170689 #14366]  INFO -- : Executing: insert into countries(country) values('China')
+I, [2014-02-04T00:50:28.173285 #14366]  INFO -- : Executing: select * from countries where country = 'China'
+I, [2014-02-04T00:50:28.174074 #14366]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-04T00:50:28.175954 #14366]  INFO -- : Executing: delete from countries
+I, [2014-02-04T00:52:05.894096 #14430]  INFO -- : Executing: select * from countries order by country ASC
+I, [2014-02-04T00:52:05.894828 #14430]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-04T00:52:05.898165 #14430]  INFO -- : Executing: delete from countries
+I, [2014-02-04T00:52:05.899443 #14430]  INFO -- : Executing: select * from countries where country = 'India'
+I, [2014-02-04T00:52:05.899602 #14430]  INFO -- : Executing: insert into countries(country) values('India')
+I, [2014-02-04T00:52:05.901545 #14430]  INFO -- : Executing: select * from countries where country = 'China'
+I, [2014-02-04T00:52:05.901699 #14430]  INFO -- : Executing: insert into countries(country) values('China')
+I, [2014-02-04T00:52:05.902899 #14430]  INFO -- : Executing: select * from countries order by country ASC
+I, [2014-02-04T00:52:05.903271 #14430]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-04T00:52:05.905449 #14430]  INFO -- : Executing: delete from countries
+I, [2014-02-04T00:52:05.906800 #14430]  INFO -- : Executing: select * from countries where country = 'China'
+I, [2014-02-04T00:52:05.906949 #14430]  INFO -- : Executing: insert into countries(country) values('China')
+I, [2014-02-04T00:52:05.908502 #14430]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-04T00:52:05.909652 #14430]  INFO -- : Executing: delete from countries
+I, [2014-02-04T00:52:05.910796 #14430]  INFO -- : Executing: select * from countries where country = 'China'
+I, [2014-02-04T00:52:05.910973 #14430]  INFO -- : Executing: insert into countries(country) values('China')
+I, [2014-02-04T00:52:05.912507 #14430]  INFO -- : Executing: select * from countries where country = 'China'
+I, [2014-02-04T00:52:05.912669 #14430]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-04T00:52:05.913822 #14430]  INFO -- : Executing: delete from countries
+I, [2014-02-04T00:52:05.915016 #14430]  INFO -- : Executing: select * from countries where country = 'China'
+I, [2014-02-04T00:52:05.915139 #14430]  INFO -- : Executing: insert into countries(country) values('China')
+I, [2014-02-04T00:52:05.917324 #14430]  INFO -- : Executing: select count(id) from countries
+I, [2014-02-04T00:52:05.917549 #14430]  INFO -- : Executing: select * from countries where country = 'China'
+I, [2014-02-04T00:52:05.917690 #14430]  INFO -- : Executing: select count(id) from countries
+I, [2014-02-04T00:52:05.917939 #14430]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-04T00:52:05.919190 #14430]  INFO -- : Executing: delete from countries
+I, [2014-02-04T00:52:05.921268 #14430]  INFO -- : Executing: select count(id) from countries
+I, [2014-02-04T00:52:05.921465 #14430]  INFO -- : Executing: select * from countries where country = 'China'
+I, [2014-02-04T00:52:05.921576 #14430]  INFO -- : Executing: insert into countries(country) values('China')
+I, [2014-02-04T00:52:05.922978 #14430]  INFO -- : Executing: select count(id) from countries
+I, [2014-02-04T00:52:05.923338 #14430]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-04T00:52:05.925957 #14430]  INFO -- : Executing: delete from countries
+I, [2014-02-04T00:52:26.643644 #14458]  INFO -- : Executing: select * from countries order by country ASC
+I, [2014-02-04T00:52:26.644496 #14458]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-04T00:52:26.649327 #14458]  INFO -- : Executing: delete from countries
+I, [2014-02-04T00:52:26.654749 #14458]  INFO -- : Executing: select * from countries where country = 'India'
+I, [2014-02-04T00:52:26.655101 #14458]  INFO -- : Executing: insert into countries(country) values('India')
+I, [2014-02-04T00:52:26.659142 #14458]  INFO -- : Executing: select * from countries where country = 'China'
+I, [2014-02-04T00:52:26.659493 #14458]  INFO -- : Executing: insert into countries(country) values('China')
+I, [2014-02-04T00:52:26.663665 #14458]  INFO -- : Executing: select * from countries order by country ASC
+I, [2014-02-04T00:52:26.664181 #14458]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-04T00:52:26.666817 #14458]  INFO -- : Executing: delete from countries
+I, [2014-02-04T00:52:26.678086 #14458]  INFO -- : Executing: select count(id) from countries
+I, [2014-02-04T00:52:26.678457 #14458]  INFO -- : Executing: select * from countries where country = 'China'
+I, [2014-02-04T00:52:26.678633 #14458]  INFO -- : Executing: insert into countries(country) values('China')
+I, [2014-02-04T00:52:26.681741 #14458]  INFO -- : Executing: select count(id) from countries
+I, [2014-02-04T00:52:26.682079 #14458]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-04T00:52:26.684183 #14458]  INFO -- : Executing: delete from countries
+I, [2014-02-04T00:52:26.686861 #14458]  INFO -- : Executing: select * from countries where country = 'China'
+I, [2014-02-04T00:52:26.687052 #14458]  INFO -- : Executing: insert into countries(country) values('China')
+I, [2014-02-04T00:52:26.690526 #14458]  INFO -- : Executing: select * from countries where country = 'China'
+I, [2014-02-04T00:52:26.690790 #14458]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-04T00:52:26.693783 #14458]  INFO -- : Executing: delete from countries
+I, [2014-02-04T00:52:26.695816 #14458]  INFO -- : Executing: select * from countries where country = 'China'
+I, [2014-02-04T00:52:26.695989 #14458]  INFO -- : Executing: insert into countries(country) values('China')
+I, [2014-02-04T00:52:26.698963 #14458]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-04T00:52:26.702268 #14458]  INFO -- : Executing: delete from countries
+I, [2014-02-04T00:52:26.705194 #14458]  INFO -- : Executing: select * from countries where country = 'China'
+I, [2014-02-04T00:52:26.705375 #14458]  INFO -- : Executing: insert into countries(country) values('China')
+I, [2014-02-04T00:52:26.707704 #14458]  INFO -- : Executing: select count(id) from countries
+I, [2014-02-04T00:52:26.707883 #14458]  INFO -- : Executing: select * from countries where country = 'China'
+I, [2014-02-04T00:52:26.708051 #14458]  INFO -- : Executing: select count(id) from countries
+I, [2014-02-04T00:52:26.708309 #14458]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-04T00:52:26.710897 #14458]  INFO -- : Executing: delete from countries
+I, [2014-02-04T00:53:26.257778 #14505]  INFO -- : Executing: select count(id) from countries
+I, [2014-02-04T00:53:26.258435 #14505]  INFO -- : Executing: select * from countries where country = 'China'
+I, [2014-02-04T00:53:26.258591 #14505]  INFO -- : Executing: insert into countries(country) values('China')
+I, [2014-02-04T00:53:26.262863 #14505]  INFO -- : Executing: select count(id) from countries
+I, [2014-02-04T00:53:26.263275 #14505]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-04T00:53:26.268780 #14505]  INFO -- : Executing: delete from countries
+I, [2014-02-04T00:53:26.271336 #14505]  INFO -- : Executing: select * from countries where country = 'China'
+I, [2014-02-04T00:53:26.271665 #14505]  INFO -- : Executing: insert into countries(country) values('China')
+I, [2014-02-04T00:53:26.274776 #14505]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-04T00:53:26.276647 #14505]  INFO -- : Executing: delete from countries
+I, [2014-02-04T00:53:26.279741 #14505]  INFO -- : Executing: select * from countries where country = 'China'
+I, [2014-02-04T00:53:26.280048 #14505]  INFO -- : Executing: insert into countries(country) values('China')
+I, [2014-02-04T00:53:26.290466 #14505]  INFO -- : Executing: select count(id) from countries
+I, [2014-02-04T00:53:26.290729 #14505]  INFO -- : Executing: select * from countries where country = 'China'
+I, [2014-02-04T00:53:26.290911 #14505]  INFO -- : Executing: select count(id) from countries
+I, [2014-02-04T00:53:26.291175 #14505]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-04T00:53:26.294885 #14505]  INFO -- : Executing: delete from countries
+I, [2014-02-04T00:53:26.298063 #14505]  INFO -- : Executing: select * from countries where country = 'China'
+I, [2014-02-04T00:53:26.298265 #14505]  INFO -- : Executing: insert into countries(country) values('China')
+I, [2014-02-04T00:53:26.301478 #14505]  INFO -- : Executing: select * from countries where country = 'China'
+I, [2014-02-04T00:53:26.301968 #14505]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-04T00:53:26.303988 #14505]  INFO -- : Executing: delete from countries
+I, [2014-02-04T00:53:26.306643 #14505]  INFO -- : Executing: select * from countries order by country ASC
+I, [2014-02-04T00:53:26.306846 #14505]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-04T00:53:26.309804 #14505]  INFO -- : Executing: delete from countries
+I, [2014-02-04T00:53:26.312246 #14505]  INFO -- : Executing: select * from countries where country = 'India'
+I, [2014-02-04T00:53:26.312545 #14505]  INFO -- : Executing: insert into countries(country) values('India')
+I, [2014-02-04T00:53:26.318083 #14505]  INFO -- : Executing: select * from countries where country = 'China'
+I, [2014-02-04T00:53:26.318399 #14505]  INFO -- : Executing: insert into countries(country) values('China')
+I, [2014-02-04T00:53:26.323200 #14505]  INFO -- : Executing: select * from countries order by country ASC
+I, [2014-02-04T00:53:26.323806 #14505]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-04T00:53:26.328357 #14505]  INFO -- : Executing: delete from countries
+I, [2014-02-04T00:53:44.808568 #14533]  INFO -- : Executing: select count(id) from countries
+I, [2014-02-04T00:53:44.809168 #14533]  INFO -- : Executing: select * from countries where country = 'China'
+I, [2014-02-04T00:53:44.809334 #14533]  INFO -- : Executing: insert into countries(country) values('China')
+I, [2014-02-04T00:53:44.818674 #14533]  INFO -- : Executing: select count(id) from countries
+I, [2014-02-04T00:53:44.819189 #14533]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-04T00:53:44.822199 #14533]  INFO -- : Executing: delete from countries
+I, [2014-02-04T00:53:44.824376 #14533]  INFO -- : Executing: select * from countries order by country ASC
+I, [2014-02-04T00:53:44.824585 #14533]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-04T00:53:44.826764 #14533]  INFO -- : Executing: delete from countries
+I, [2014-02-04T00:53:44.829624 #14533]  INFO -- : Executing: select * from countries where country = 'China'
+I, [2014-02-04T00:53:44.829842 #14533]  INFO -- : Executing: insert into countries(country) values('China')
+I, [2014-02-04T00:53:44.840149 #14533]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-04T00:53:44.843261 #14533]  INFO -- : Executing: delete from countries
+I, [2014-02-04T00:53:44.846222 #14533]  INFO -- : Executing: select * from countries where country = 'China'
+I, [2014-02-04T00:53:44.846416 #14533]  INFO -- : Executing: insert into countries(country) values('China')
+I, [2014-02-04T00:53:44.849453 #14533]  INFO -- : Executing: select * from countries where country = 'China'
+I, [2014-02-04T00:53:44.849682 #14533]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-04T00:53:44.851742 #14533]  INFO -- : Executing: delete from countries
+I, [2014-02-04T00:53:44.854645 #14533]  INFO -- : Executing: select * from countries where country = 'India'
+I, [2014-02-04T00:53:44.854839 #14533]  INFO -- : Executing: insert into countries(country) values('India')
+I, [2014-02-04T00:53:44.857301 #14533]  INFO -- : Executing: select * from countries where country = 'China'
+I, [2014-02-04T00:53:44.857484 #14533]  INFO -- : Executing: insert into countries(country) values('China')
+I, [2014-02-04T00:53:44.859665 #14533]  INFO -- : Executing: select * from countries order by country ASC
+I, [2014-02-04T00:53:44.860045 #14533]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-04T00:53:44.863857 #14533]  INFO -- : Executing: delete from countries
+I, [2014-02-04T00:53:44.867082 #14533]  INFO -- : Executing: select * from countries where country = 'China'
+I, [2014-02-04T00:53:44.867317 #14533]  INFO -- : Executing: insert into countries(country) values('China')
+I, [2014-02-04T00:53:44.870002 #14533]  INFO -- : Executing: select count(id) from countries
+I, [2014-02-04T00:53:44.870370 #14533]  INFO -- : Executing: select * from countries where country = 'China'
+I, [2014-02-04T00:53:44.870641 #14533]  INFO -- : Executing: select count(id) from countries
+I, [2014-02-04T00:53:44.871054 #14533]  INFO -- : Executing: delete from exportsimports
+I, [2014-02-04T00:53:44.878712 #14533]  INFO -- : Executing: delete from countries
