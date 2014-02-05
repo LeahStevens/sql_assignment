@@ -33,7 +33,7 @@ task :test_prepare do
 end
 
 def create_tables(database_connection)
-  database_connection.execute("CREATE TABLE exportsimports (id INTEGER PRIMARY KEY AUTOINCREMENT, year integer, month integer, type varchar(255), amount integer, country_id integer)")
+  database_connection.execute("CREATE TABLE exportsimports (id INTEGER PRIMARY KEY AUTOINCREMENT, country varchar(255), year integer, month integer, type integer, amount integer, country_id integer)")
   database_connection.execute("CREATE TABLE countries (id INTEGER PRIMARY KEY AUTOINCREMENT, country varchar(255))")
 end
 

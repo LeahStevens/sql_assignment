@@ -49,10 +49,10 @@ class TestingEnteringExportsImports < ExportsImportsTest
   end
 
   def test_valid_country_information_gets_saved
-    execute_popen("./tradedata add China --year 2014 --month 01 --type e --amount 23435 --environment test")
+    execute_popen("./tradedata add China --year 2014 --month 01 --type 2 --amount 23435 --environment test")
     database.results_as_hash = false
     results = database.execute("select country, year, month, type, amount from ExportsImports")
-    expected = ["China", 2014, 01, "e", 23435]
+    expected = ["China", 2014, 1, 2, 23435]
     assert_equal expected, results[0]
 
     result = database.execute("select count(id) from ExportsImports")
@@ -66,26 +66,26 @@ class TestingEnteringExportsImports < ExportsImportsTest
   end
 
   def test_for_missing_year
-    command = "./tradedata add China --month 01 --type e --amount 23435"
+    command = "./tradedata add China --month 1 --type 2 --amount 23435"
     expected = "You must provide the year for the country you are adding."
     assert_command_output expected, command
   end
 
   def test_for_missing_month
-    command = "./tradedata add China --year 2014 --type e --amount 23435"
-    expected = "You must provide the year for the country you are adding."
+    command = "./tradedata add China --year 2014 --type 2 --amount 23435"
+    expected = "You must provide the month for the country you are adding."
     assert_command_output expected, command
   end
 
   def test_for_missing_type
     command = "./tradedata add China --year 2014 --month 1 --amount 23435"
-    expected = "You must provide the year for the country you are adding."
+    expected = "You must provide the type for the country you are adding."
     assert_command_output expected, command
   end
 
   def test_for_missing_amount
-    command = "./tradedata add China --year 2014 --month 1 --type e"
-    expected = "You must provide the year for the country you are adding."
+    command = "./tradedata add China --year 2014 --month 1 --type 2"
+    expected = "You must provide the amount for the country you are adding."
     assert_command_output expected, command
   end
 
@@ -97,7 +97,7 @@ class TestingEnteringExportsImports < ExportsImportsTest
 
   def test_for_missing_country
     command = "./tradedata add"
-    expected = "You must provide the name of the country you are adding.\nYou must provide the year, month, type, and amount for the country you are adding."
+    expected = "You must provide the name of the country you are adding.\nYou must provide the year and month and type and amount for the country you are adding."
     assert_command_output expected, command
   end
 end

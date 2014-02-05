@@ -6,7 +6,7 @@ class TestCountries < ExportsImportsTest
     countries_before = database.execute("select count(id) from countries")[0][0]
     Country.find_or_create("China")
     countries_after = database.execute("select count(id) from countries")[0][0]
-    assert_equal countries_before + 1, counties_after
+    assert_equal countries_before + 1, countries_after
   end
 
   def test_countries_are_not_created_if_they_already_exist
@@ -14,7 +14,7 @@ class TestCountries < ExportsImportsTest
     countries_before = database.execute("select count(id) from countries")[0][0]
     Country.find_or_create("China")
     countries_after = database.execute("select count(id) from countries")[0][0]
-    assert_equal counties_before, countries_after
+    assert_equal countries_before, countries_after
   end
 
   def test_existing_country_is_returned_by_find_or_create

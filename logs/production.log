@@ -1,23 +1,77 @@
-# Logfile created on 2014-02-04 00:29:29 -0600 by logger.rb/36483
-I, [2014-02-04T00:29:29.468191 #13497]  INFO -- : Executing: select * from countries where country = 'OPEC'
-I, [2014-02-04T00:29:29.468678 #13497]  INFO -- : Executing: insert into exportsimports(country_id, year, month, type, amount) values(1, 1985, 1, 1, 1733)
-I, [2014-02-04T00:29:29.472286 #13497]  INFO -- : Executing: select * from countries where country = 'OPEC'
-I, [2014-02-04T00:29:29.472540 #13497]  INFO -- : Executing: insert into exportsimports(country_id, year, month, type, amount) values(1, 1986, 1, 2, 2631)
-I, [2014-02-04T00:29:29.475142 #13497]  INFO -- : Executing: select * from countries where country = 'OPEC'
-I, [2014-02-04T00:29:29.475360 #13497]  INFO -- : Executing: insert into exportsimports(country_id, year, month, type, amount) values(1, 1987, 1, 2, 1344)
-I, [2014-02-04T00:29:29.478438 #13497]  INFO -- : Executing: select * from countries where country = 'OPEC'
-I, [2014-02-04T00:29:29.478656 #13497]  INFO -- : Executing: insert into exportsimports(country_id, year, month, type, amount) values(1, 1988, 1, 1, 1869)
-I, [2014-02-04T00:29:29.482089 #13497]  INFO -- : Executing: select * from countries where country = 'OPEC'
-I, [2014-02-04T00:29:29.482354 #13497]  INFO -- : Executing: insert into exportsimports(country_id, year, month, type, amount) values(1, 1989, 1, 1, 2241)
-I, [2014-02-04T00:29:29.485929 #13497]  INFO -- : Executing: select * from countries where country = 'OPEC'
-I, [2014-02-04T00:29:29.486231 #13497]  INFO -- : Executing: insert into exportsimports(country_id, year, month, type, amount) values(1, 1990, 1, 1, 3662)
-I, [2014-02-04T00:29:29.489978 #13497]  INFO -- : Executing: select * from countries where country = 'OPEC'
-I, [2014-02-04T00:29:29.490473 #13497]  INFO -- : Executing: insert into exportsimports(country_id, year, month, type, amount) values(1, 1991, 1, 2, 3239)
-I, [2014-02-04T00:29:29.495814 #13497]  INFO -- : Executing: select * from countries where country = 'OPEC'
-I, [2014-02-04T00:29:29.496127 #13497]  INFO -- : Executing: insert into exportsimports(country_id, year, month, type, amount) values(1, 1992, 1, 1, 2596)
-I, [2014-02-04T00:29:29.499472 #13497]  INFO -- : Executing: select * from countries where country = 'OPEC'
-I, [2014-02-04T00:29:29.499757 #13497]  INFO -- : Executing: insert into exportsimports(country_id, year, month, type, amount) values(1, 1993, 1, 1, 2733)
-I, [2014-02-04T00:29:29.502815 #13497]  INFO -- : Executing: select * from countries where country = 'OPEC'
-I, [2014-02-04T00:29:29.503030 #13497]  INFO -- : Executing: insert into exportsimports(country_id, year, month, type, amount) values(1, 1994, 1, 1, 2085)
-I, [2014-02-04T00:41:14.905115 #14229]  INFO -- : Executing: select * from exportsimports where country LIKE '%%' order by country ASC
-I, [2014-02-04T00:48:54.987113 #14309]  INFO -- : Executing: select * from exportsimports where country LIKE '%%' order by country ASC
+# Logfile created on 2014-02-05 09:27:36 -0600 by logger.rb/36483
+I, [2014-02-05T09:27:36.568332 #9463]  INFO -- : Executing: CREATE TABLE exportsimports (id INTEGER PRIMARY KEY AUTOINCREMENT, country varchar(255), year integer, month integer, type integer, amount integer, country_id integer)
+I, [2014-02-05T09:27:36.573635 #9463]  INFO -- : Executing: CREATE TABLE countries (id INTEGER PRIMARY KEY AUTOINCREMENT, country varchar(255))
+I, [2014-02-05T09:27:38.497410 #9479]  INFO -- : Executing: select * from countries where country = 'OPEC'
+I, [2014-02-05T09:27:38.498006 #9479]  INFO -- : Executing: insert into countries(country) values('OPEC')
+I, [2014-02-05T09:27:38.501327 #9479]  INFO -- : Executing: insert into exportsimports(year, month, type, amount) values(1985, 1, 1, 1733)
+I, [2014-02-05T09:27:38.503937 #9479]  INFO -- : Executing: select * from countries where country = 'OPEC'
+I, [2014-02-05T09:27:38.504152 #9479]  INFO -- : Executing: insert into exportsimports(year, month, type, amount) values(1986, 1, 2, 2631)
+I, [2014-02-05T09:27:38.506416 #9479]  INFO -- : Executing: select * from countries where country = 'OPEC'
+I, [2014-02-05T09:27:38.506603 #9479]  INFO -- : Executing: insert into exportsimports(year, month, type, amount) values(1987, 1, 2, 1344)
+I, [2014-02-05T09:27:38.508488 #9479]  INFO -- : Executing: select * from countries where country = 'OPEC'
+I, [2014-02-05T09:27:38.508668 #9479]  INFO -- : Executing: insert into exportsimports(year, month, type, amount) values(1989, 1, 1, 2241)
+I, [2014-02-05T09:27:38.511279 #9479]  INFO -- : Executing: select * from countries where country = 'Greenland'
+I, [2014-02-05T09:27:38.511427 #9479]  INFO -- : Executing: insert into countries(country) values('Greenland')
+I, [2014-02-05T09:27:38.513351 #9479]  INFO -- : Executing: insert into exportsimports(year, month, type, amount) values(2011, 1, 1, 0)
+I, [2014-02-05T09:27:38.515943 #9479]  INFO -- : Executing: select * from countries where country = 'Greenland'
+I, [2014-02-05T09:27:38.516137 #9479]  INFO -- : Executing: insert into exportsimports(year, month, type, amount) values(2012, 1, 1, 0)
+I, [2014-02-05T09:27:38.518366 #9479]  INFO -- : Executing: select * from countries where country = 'Canada'
+I, [2014-02-05T09:27:38.518516 #9479]  INFO -- : Executing: insert into countries(country) values('Canada')
+I, [2014-02-05T09:27:38.520369 #9479]  INFO -- : Executing: insert into exportsimports(year, month, type, amount) values(1988, 1, 1, 5973)
+I, [2014-02-05T09:27:38.522950 #9479]  INFO -- : Executing: select * from countries where country = 'Canada'
+I, [2014-02-05T09:27:38.523137 #9479]  INFO -- : Executing: insert into exportsimports(year, month, type, amount) values(1989, 1, 1, 7411)
+I, [2014-02-05T09:27:38.525047 #9479]  INFO -- : Executing: select * from countries where country = 'Canada'
+I, [2014-02-05T09:27:38.525223 #9479]  INFO -- : Executing: insert into exportsimports(year, month, type, amount) values(1990, 1, 1, 6799)
+I, [2014-02-05T09:28:18.076165 #9709]  INFO -- : Executing: select * from countries order by country ASC
+I, [2014-02-05T09:28:23.572950 #9709]  INFO -- : Executing: insert into exportsimports(year, month, type, amount) values(2002, 12, 1, 1238)
+I, [2014-02-05T09:28:33.550712 #9734]  INFO -- : Executing: select * from exportsimports where year LIKE '%%' order by year ASC
+I, [2014-02-05T09:28:33.551492 #9734]  INFO -- : Executing: select * from countries where country = 'Unknown'
+I, [2014-02-05T09:28:33.551644 #9734]  INFO -- : Executing: insert into countries(country) values('Unknown')
+I, [2014-02-05T09:28:33.555564 #9734]  INFO -- : Executing: select * from countries order by country ASC
+I, [2014-02-05T09:28:33.555816 #9734]  INFO -- : Executing: select * from countries order by country ASC
+I, [2014-02-05T09:28:33.556016 #9734]  INFO -- : Executing: select * from countries order by country ASC
+I, [2014-02-05T09:28:33.556207 #9734]  INFO -- : Executing: select * from countries order by country ASC
+I, [2014-02-05T09:28:33.556395 #9734]  INFO -- : Executing: select * from countries order by country ASC
+I, [2014-02-05T09:28:33.556609 #9734]  INFO -- : Executing: select * from countries order by country ASC
+I, [2014-02-05T09:28:33.556797 #9734]  INFO -- : Executing: select * from countries order by country ASC
+I, [2014-02-05T09:28:33.556980 #9734]  INFO -- : Executing: select * from countries order by country ASC
+I, [2014-02-05T09:28:33.557161 #9734]  INFO -- : Executing: select * from countries order by country ASC
+I, [2014-02-05T09:28:33.557340 #9734]  INFO -- : Executing: select * from countries order by country ASC
+I, [2014-02-05T09:29:00.583590 #9753]  INFO -- : Executing: select * from exportsimports where year LIKE '%2014%' order by year ASC
+I, [2014-02-05T09:29:10.370306 #9770]  INFO -- : Executing: select * from countries order by country ASC
+I, [2014-02-05T09:29:14.583689 #9770]  INFO -- : Executing: insert into exportsimports(year, month, type, amount) values(2014, 12, 1, 1238)
+I, [2014-02-05T09:29:22.167859 #9794]  INFO -- : Executing: select * from exportsimports where year LIKE '%2014%' order by year ASC
+I, [2014-02-05T09:29:22.168705 #9794]  INFO -- : Executing: select * from countries where country = 'Unknown'
+I, [2014-02-05T09:29:22.168931 #9794]  INFO -- : Executing: select * from countries order by country ASC
+I, [2014-02-05T09:42:28.156804 #9882]  INFO -- : Executing: select * from exportsimports where year LIKE '%%' order by year ASC
+I, [2014-02-05T09:42:28.157621 #9882]  INFO -- : Executing: select * from countries where country = 'Unknown'
+I, [2014-02-05T09:42:28.157832 #9882]  INFO -- : Executing: select * from countries order by country ASC
+I, [2014-02-05T09:42:28.158050 #9882]  INFO -- : Executing: select * from countries order by country ASC
+I, [2014-02-05T09:42:28.158248 #9882]  INFO -- : Executing: select * from countries order by country ASC
+I, [2014-02-05T09:42:28.158442 #9882]  INFO -- : Executing: select * from countries order by country ASC
+I, [2014-02-05T09:42:28.158633 #9882]  INFO -- : Executing: select * from countries order by country ASC
+I, [2014-02-05T09:42:28.158853 #9882]  INFO -- : Executing: select * from countries order by country ASC
+I, [2014-02-05T09:42:28.159049 #9882]  INFO -- : Executing: select * from countries order by country ASC
+I, [2014-02-05T09:42:28.159235 #9882]  INFO -- : Executing: select * from countries order by country ASC
+I, [2014-02-05T09:42:28.159411 #9882]  INFO -- : Executing: select * from countries order by country ASC
+I, [2014-02-05T09:42:28.159585 #9882]  INFO -- : Executing: select * from countries order by country ASC
+I, [2014-02-05T09:42:28.159758 #9882]  INFO -- : Executing: select * from countries order by country ASC
+I, [2014-02-05T09:42:51.691022 #9901]  INFO -- : Executing: select * from countries order by country ASC
+I, [2014-02-05T09:42:57.919353 #9901]  INFO -- : Executing: insert into exportsimports(year, month, type, amount) values(2014, 12, 1, 1238)
+I, [2014-02-05T09:43:02.318696 #9925]  INFO -- : Executing: select * from exportsimports where year LIKE '%%' order by year ASC
+I, [2014-02-05T09:43:02.319418 #9925]  INFO -- : Executing: select * from countries where country = 'Unknown'
+I, [2014-02-05T09:43:02.319612 #9925]  INFO -- : Executing: select * from countries order by country ASC
+I, [2014-02-05T09:43:02.319817 #9925]  INFO -- : Executing: select * from countries order by country ASC
+I, [2014-02-05T09:43:02.320002 #9925]  INFO -- : Executing: select * from countries order by country ASC
+I, [2014-02-05T09:43:02.320178 #9925]  INFO -- : Executing: select * from countries order by country ASC
+I, [2014-02-05T09:43:02.320382 #9925]  INFO -- : Executing: select * from countries order by country ASC
+I, [2014-02-05T09:43:02.320560 #9925]  INFO -- : Executing: select * from countries order by country ASC
+I, [2014-02-05T09:43:02.320732 #9925]  INFO -- : Executing: select * from countries order by country ASC
+I, [2014-02-05T09:43:02.320900 #9925]  INFO -- : Executing: select * from countries order by country ASC
+I, [2014-02-05T09:43:02.321068 #9925]  INFO -- : Executing: select * from countries order by country ASC
+I, [2014-02-05T09:43:02.321235 #9925]  INFO -- : Executing: select * from countries order by country ASC
+I, [2014-02-05T09:43:02.321412 #9925]  INFO -- : Executing: select * from countries order by country ASC
+I, [2014-02-05T09:43:02.321598 #9925]  INFO -- : Executing: select * from countries order by country ASC
+I, [2014-02-05T09:43:25.030797 #9943]  INFO -- : Executing: select * from exportsimports where year LIKE '%1988%' order by year ASC
+I, [2014-02-05T09:43:25.031411 #9943]  INFO -- : Executing: select * from countries where country = 'Unknown'
+I, [2014-02-05T09:43:25.031555 #9943]  INFO -- : Executing: select * from countries order by country ASC

@@ -8,6 +8,10 @@ class ExportsImports
     self.country ||= Country.default
   end
 
+  # def country=(country)
+  #   @country = country
+  # end
+
    def year=(year)
     @year = year.to_i
   end
@@ -40,9 +44,9 @@ class ExportsImports
     database = Environment.database_connection
     country_id = country.nil? ? "NULL" : country.id
     if id
-      database.execute("update exportsimports set country = '#{country}', year = '#{year}', month = '#{month}', type = '#{type}', amount = '#{amount}' where id = #{country.id}")
+      database.execute("update exportsimports set year = '#{year}', month = '#{month}', type = '#{type}', amount = '#{amount}' ")
     else
-      database.execute("insert into exportsimports(country_id, year, month, type, amount) values(#{country_id}, #{year}, #{month}, #{type}, #{amount})")
+      database.execute("insert into exportsimports(year, month, type, amount) values(#{year}, #{month}, #{type}, #{amount})")
      @id = database.last_insert_row_id
     end
   end
@@ -63,7 +67,7 @@ def self.find id
   def self.search(search_term = nil)
     database = Environment.database_connection
     database.results_as_hash = true
-    results = database.execute("select * from exportsimports where country LIKE '%#{search_term}%' order by country ASC")
+    results = database.execute("select * from exportsimports where year LIKE '%#{search_term}%' order by year ASC")
     results.map do |row_hash|
       exportsimports = ExportsImports.new(
         country: row_hash["country"],
@@ -84,7 +88,7 @@ def self.find id
   end
 
   def to_s
-    "#{country}: year #{year}, month #{month}, type #{type}, and amount #{amount}"
+    "#{country.country}: year #{year}, month #{month}, type #{type}, and amount #{amount}"
   end
 
 

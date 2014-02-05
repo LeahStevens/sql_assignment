@@ -3,7 +3,7 @@ require_relative '../lib/importer'
 
 class TestImportingExportsImports < ExportsImportsTest
   def import_data
-    Importer.import("test/sample_exportsimports_data.csv")
+    Importer.import("data/tradedataetc.csv")
   end
 
   def test_the_correct_number_of_exportsimports_are_imported
@@ -14,9 +14,9 @@ class TestImportingExportsImports < ExportsImportsTest
   def test_exportsimports_are_imported_fully
     import_data
     expected = [
-      "China, 2014, 01, e, 23423",
-      "Australia, 2015, 01, i, 123",
-      "India, 2024, 01, e, 923423",
+      "China, 2014, 1, 2, 23423",
+      "Australia, 2015, 1, 1, 123",
+      "India, 2024, 1, 2, 923423",
     ]
     actual = ExportsImports.all.map do |exportsimports|
       "#{exportsimports.country}, #{exportsimports.year}, #{exportsimports.month}, #{exportsimports.type}, #{exportsimports.amount}"

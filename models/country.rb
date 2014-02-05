@@ -1,3 +1,5 @@
+require 'pry'
+
 class Country
   attr_accessor :country
   attr_reader :id
@@ -11,7 +13,10 @@ class Country
   end
 
   def country=(country)
-    @country = country.strip
+    # There was a .strip after @country = country.strip
+    # It kept killing my code.
+    @country = country
+    # binding.pry
   end
 
   def self.all
@@ -20,7 +25,7 @@ class Country
     results = database.execute("select * from countries order by country ASC")
     results.map do |row_hash|
       country = Country.new(country: row_hash["country"])
-      country.send("country.id=", row_hash["country.id"])
+      country.send("id=", row_hash["country.id"])
       country
     end
   end
